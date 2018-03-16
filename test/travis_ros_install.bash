@@ -1,8 +1,8 @@
 #!/bin/bash -xve
 
-#required packeges
+#required packages
 pip install catkin_pkg
-pip install empty
+pip install empy
 pip install pyyaml
 pip install rospkg
 
