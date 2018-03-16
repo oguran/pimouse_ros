@@ -1,10 +1,10 @@
 #!/bin/bash -xve
 
 #required packeges
-pip instasll catkin_pkg
-pip instasll empty
-pip instasll pyyaml
-pip instasll rospkg
+pip install catkin_pkg
+pip install empty
+pip install pyyaml
+pip install rospkg
 
 #ros install
 cd ..
