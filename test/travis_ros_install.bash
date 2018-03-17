@@ -1,8 +1,7 @@
 #!/bin/bash -xve
 
 #required requests for security
-sudo apt install -y openssl-devel python-devel libffi-devel
-pip install requests[security]
+pip install pyOpenSSL ndg-httpsclient pyasn1
 
 #required packages
 pip install catkin_pkg
