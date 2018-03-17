@@ -1,5 +1,8 @@
 #!/bin/bash -xve
 
+#required requests for security
+pip install requests[security]
+
 #required packages
 pip install catkin_pkg
 pip install empy
