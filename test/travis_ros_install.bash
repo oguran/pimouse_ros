@@ -1,7 +1,7 @@
 #!/bin/bash -xve
 
 #required requests for security
-apt install -y openssl-devel python-devel libffi-devel
+sudo apt install -y openssl-devel python-devel libffi-devel
 pip install requests[security]
 
 #required packages
