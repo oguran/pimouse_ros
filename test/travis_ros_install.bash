@@ -1,8 +1,5 @@
 #!/bin/bash -xve
 
-#required requests for security
-pip install pyOpenSSL ndg-httpsclient pyasn1
-
 #required packages
 pip install catkin_pkg
 pip install empy
@@ -11,8 +8,8 @@ pip install rospkg
 
 #ros install
 cd ..
-git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu16.04_server.git
-cd ./ros_setup_scripts_Ubuntu16.04_server
+git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu14.04_server.git
+cd ./ros_setup_scripts_Ubuntu14.04_server
 bash ./step0.bash
 bash ./step1.bash
 
@@ -23,3 +20,7 @@ source /opt/ros/indigo/setup.bash
 catkin_init_workspace
 cd ~/catkin_ws
 catkin_make
+
+# Copyright 2016 Ryuichi Ueda
+# Released under the BSD License.
+# To make line numbers be identical with the book, this statement is written here. Don't move it to the header.
